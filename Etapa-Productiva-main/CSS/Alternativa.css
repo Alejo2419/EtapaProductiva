@@ -1,0 +1,112 @@
+#header {
+    width: 100%;
+    color: #39A900;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Work Sans Regular';
+    src: url('../fonts/WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title-container {
+    margin-top: 20px; /* Ajusta el espacio entre las imágenes y el título según necesites */
+    background: #39a900;
+    height: 30px;
+    text-align: center;
+    font-family: "Work Sans";
+    font: white;
+    font-weight: 700;
+    font-size: x-large;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 1fr 0.2fr 0.2fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1 {
+
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+#section2 {
+  
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.fecha {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   margin-right: 5PX;
+}
+
+.entrada {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.more-information {
+    background-color: #39A900;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    color: #ffff;
+}

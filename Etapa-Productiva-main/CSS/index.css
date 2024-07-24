@@ -1,0 +1,61 @@
+.titulo {
+    background: #39a900;
+    height: 30px;
+    text-align: center;
+    font-family: "Work Sans";
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.FormularioLogin {
+    display: none;
+}
+
+.imagenTitulo {
+    margin-left: 30px;
+}
+
+.boton {
+    border-radius: 5px;
+    font-family: "Arial";
+    font-style: bold;
+    color: white;
+    background-color: rgb(43, 148, 149);
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.contenedor {
+    font-family: "Work Sans";
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.contenedorInteno{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Informacion {
+    font-family: "Work Sans";
+}
+
+.more-information {
+    padding-top: 15px;
+    background: #39a900;
+    height: 190px;
+    text-align: center;
+    font-family: "Work Sans";
+    color: white;
+}
